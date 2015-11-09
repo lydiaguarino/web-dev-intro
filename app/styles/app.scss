@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+
+$dominant-color: #003e51;
+$text-color: #5cb8b2;
+$primary-font: 'Oswald', sans-serif;
+$large-font: 96px;
+$medium-font: 42px;
+$small-font: 24px;
+
+body {
+  background-color: $dominant-color;
+  color: $text-color;
+  font-family: $primary-font;
+  text-align: center;
+}
+
+h1 {
+  font-size: $large-font;
+}
+
+h2 {
+  font-size: $medium-font;
+}
+
+h3 {
+  font-size: $small-font;
+}
+
+p {
+  font-size: $small-font;
+}
